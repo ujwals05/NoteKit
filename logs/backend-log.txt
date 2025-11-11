@@ -1,0 +1,13 @@
+> npm run dev
+
+> backend@1.0.0 dev
+> nodemon src/index.js
+
+[nodemon] 3.1.10
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node src/index.js`
+[dotenv@17.2.3] injecting env (6) from .env -- tip: ⚙️  suppress all logs with { quiet: ttrue }
+Database is connected successfully
+The app is running on port : 8000
