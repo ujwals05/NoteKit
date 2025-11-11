@@ -9,7 +9,7 @@ A full-stack note-taking application that allows users to create, read, update, 
 **Responsive UI:** Works on desktop and mobile  
 **Backend API:** RESTful endpoints for notes and user management  
 
-## 💻 Tech Stack
+## Tech Stack
 
 **Frontend:** React.js   
 **Backend:** Node.js + Express   
@@ -54,5 +54,19 @@ npm run dev
 ```
 cd ../frontend
 npm install
-npm start
+npm run dev
+```
+
+### API Documenation
+
+```
+POST /api/auth/signup
+POST /api/auth/signin
+POST /api/auth/logout
+GET /api/auth/currentUser
+GET /api/notes
+POST /api/notes
+PUT /api/notes/:id
+DELETE /api/notes/:id
+
 ```
