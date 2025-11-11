@@ -44,11 +44,7 @@ export const signup = async (req, res) => {
       .json({
         success: true,
         message: "User registered successfully",
-        user: {
-          id: newUser._id,
-          username: newUser.username,
-          email: newUser.email,
-        },
+        newUser,
       });
   } catch (error) {
     console.error("Signup Error:", error);
